@@ -1,5 +1,10 @@
 import React from "react";
+import UserResults from "../users/UserResults";
 
 export default function Home() {
-  return <h1>Home</h1>;
+  return (
+    <div>
+      <UserResults />
+    </div>
+  );
 }
